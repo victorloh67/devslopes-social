@@ -14,6 +14,11 @@
 		E27D9D5A2103D2A300FDD767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27D9D592103D2A300FDD767 /* Assets.xcassets */; };
 		E27D9D5D2103D2A300FDD767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27D9D5B2103D2A300FDD767 /* LaunchScreen.storyboard */; };
 		E27D9D652103D5CD00FDD767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E27D9D642103D5CC00FDD767 /* GoogleService-Info.plist */; };
+		E27D9D6A2104CBF800FDD767 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9D692104CBF800FDD767 /* FancyView.swift */; };
+		E27D9D6D2104D11500FDD767 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9D6C2104D11500FDD767 /* Constants.swift */; };
+		E27D9D6F2104E86300FDD767 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9D6E2104E86200FDD767 /* RoundBtn.swift */; };
+		E27D9D712104ECB800FDD767 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9D702104ECB800FDD767 /* FancyField.swift */; };
+		E27D9D732104EF2100FDD767 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9D722104EF2100FDD767 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		E27D9D5C2103D2A300FDD767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27D9D5E2103D2A300FDD767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27D9D642103D5CC00FDD767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E27D9D692104CBF800FDD767 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		E27D9D6C2104D11500FDD767 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E27D9D6E2104E86200FDD767 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		E27D9D702104ECB800FDD767 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		E27D9D722104EF2100FDD767 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 		E27D9D512103D2A100FDD767 /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				E27D9D6B2104D0C600FDD767 /* Util */,
 				E27D9D682103DA2B00FDD767 /* Model */,
 				E27D9D672103DA2400FDD767 /* View */,
 				E27D9D662103DA1B00FDD767 /* Controller */,
@@ -96,6 +107,10 @@
 		E27D9D672103DA2400FDD767 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E27D9D692104CBF800FDD767 /* FancyView.swift */,
+				E27D9D6E2104E86200FDD767 /* RoundBtn.swift */,
+				E27D9D702104ECB800FDD767 /* FancyField.swift */,
+				E27D9D722104EF2100FDD767 /* FancyBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +120,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E27D9D6B2104D0C600FDD767 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E27D9D6C2104D11500FDD767 /* Constants.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		ED878B1E5C4C4D389C1D8310 /* Frameworks */ = {
@@ -242,8 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27D9D712104ECB800FDD767 /* FancyField.swift in Sources */,
 				E27D9D552103D2A200FDD767 /* SignInVC.swift in Sources */,
+				E27D9D6F2104E86300FDD767 /* RoundBtn.swift in Sources */,
 				E27D9D532103D2A200FDD767 /* AppDelegate.swift in Sources */,
+				E27D9D6A2104CBF800FDD767 /* FancyView.swift in Sources */,
+				E27D9D6D2104D11500FDD767 /* Constants.swift in Sources */,
+				E27D9D732104EF2100FDD767 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
